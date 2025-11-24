@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Tests\\Explorer.BuildingBlocks.Tests.csproj": {}
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Tests\\Explorer.BuildingBlocks.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj",
         "projectName": "Explorer.BuildingBlocks.Core",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj",
         "projectName": "Explorer.BuildingBlocks.Infrastructure",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj"
               }
             }
           }
@@ -164,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Tests\\Explorer.BuildingBlocks.Tests.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Tests\\Explorer.BuildingBlocks.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Tests\\Explorer.BuildingBlocks.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Tests\\Explorer.BuildingBlocks.Tests.csproj",
         "projectName": "Explorer.BuildingBlocks.Tests",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Tests\\Explorer.BuildingBlocks.Tests.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Tests\\Explorer.BuildingBlocks.Tests.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Tests\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -193,8 +193,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Explorer.API\\Explorer.API.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Explorer.API\\Explorer.API.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Explorer.API\\Explorer.API.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Explorer.API\\Explorer.API.csproj"
               }
             }
           }
@@ -264,14 +264,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Explorer.API\\Explorer.API.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Explorer.API\\Explorer.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Explorer.API\\Explorer.API.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Explorer.API\\Explorer.API.csproj",
         "projectName": "Explorer.API",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Explorer.API\\Explorer.API.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Explorer.API\\Explorer.API.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Explorer.API\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Explorer.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -293,29 +293,29 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj"
               },
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj"
               },
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj"
               },
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\Explorer.Blog.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\Explorer.Blog.Infrastructure.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\Explorer.Blog.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\Explorer.Blog.Infrastructure.csproj"
               },
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj"
               },
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\Explorer.Stakeholders.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\Explorer.Stakeholders.Infrastructure.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\Explorer.Stakeholders.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\Explorer.Stakeholders.Infrastructure.csproj"
               },
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj"
               },
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\Explorer.Tours.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\Explorer.Tours.Infrastructure.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\Explorer.Tours.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\Explorer.Tours.Infrastructure.csproj"
               }
             }
           }
@@ -370,14 +370,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.API\\Explorer.Blog.API.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.API\\Explorer.Blog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.API\\Explorer.Blog.API.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.API\\Explorer.Blog.API.csproj",
         "projectName": "Explorer.Blog.API",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.API\\Explorer.Blog.API.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.API\\Explorer.Blog.API.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.API\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -399,8 +399,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj"
               }
             }
           }
@@ -440,14 +440,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj",
         "projectName": "Explorer.Blog.Core",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Core\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -469,8 +469,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.API\\Explorer.Blog.API.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.API\\Explorer.Blog.API.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.API\\Explorer.Blog.API.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.API\\Explorer.Blog.API.csproj"
               }
             }
           }
@@ -510,14 +510,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\Explorer.Blog.Infrastructure.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\Explorer.Blog.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\Explorer.Blog.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\Explorer.Blog.Infrastructure.csproj",
         "projectName": "Explorer.Blog.Infrastructure",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\Explorer.Blog.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\Explorer.Blog.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -539,11 +539,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj"
               },
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Blog\\Explorer.Blog.Core\\Explorer.Blog.Core.csproj"
               }
             }
           }
@@ -583,14 +583,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj",
         "projectName": "Explorer.Stakeholders.API",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -612,8 +612,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj"
               }
             }
           }
@@ -653,14 +653,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj",
         "projectName": "Explorer.Stakeholders.Core",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -682,8 +682,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.API\\Explorer.Stakeholders.API.csproj"
               }
             }
           }
@@ -723,14 +723,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\Explorer.Stakeholders.Infrastructure.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\Explorer.Stakeholders.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\Explorer.Stakeholders.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\Explorer.Stakeholders.Infrastructure.csproj",
         "projectName": "Explorer.Stakeholders.Infrastructure",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\Explorer.Stakeholders.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\Explorer.Stakeholders.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -752,11 +752,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj"
               },
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj"
               }
             }
           }
@@ -802,14 +802,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj",
         "projectName": "Explorer.Tours.API",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.API\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -831,8 +831,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj"
               }
             }
           }
@@ -872,14 +872,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj",
         "projectName": "Explorer.Tours.Core",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Core\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -901,8 +901,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj"
               }
             }
           }
@@ -942,14 +942,14 @@
         }
       }
     },
-    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\Explorer.Tours.Infrastructure.csproj": {
+    "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\Explorer.Tours.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\Explorer.Tours.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\Explorer.Tours.Infrastructure.csproj",
         "projectName": "Explorer.Tours.Infrastructure",
-        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\Explorer.Tours.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\Explorer.Tours.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -971,11 +971,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Infrastructure\\Explorer.BuildingBlocks.Infrastructure.csproj"
               },
-              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj": {
-                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj"
+              "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj": {
+                "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj"
               }
             }
           }

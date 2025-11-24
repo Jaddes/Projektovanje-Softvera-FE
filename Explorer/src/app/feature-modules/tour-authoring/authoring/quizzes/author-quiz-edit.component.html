@@ -1,0 +1,77 @@
+<div class="quiz-edit" *ngIf="!loading; else loadingTpl">
+  <h2>{{ isEdit ? 'Edit quiz' : 'Create quiz' }}</h2>
+
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+  <form [formGroup]="quizForm" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Title</mat-label>
+      <input matInput formControlName="title" placeholder="Enter quiz title" required>
+      <mat-error *ngIf="quizForm.get('title')?.invalid">Title is required.</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Description</mat-label>
+      <textarea matInput rows="3" formControlName="description" placeholder="Optional description"></textarea>
+    </mat-form-field>
+
+    <div formArrayName="questions" class="question-list">
+      <div *ngFor="let question of questions.controls; let qi = index; trackBy: trackByIndex" [formGroupName]="qi" class="question-card">
+        <div class="question-header">
+          <h3>Question {{ qi + 1 }}</h3>
+          <div class="actions">
+            <button mat-stroked-button color="primary" type="button" (click)="addOption(qi)">Add option</button>
+            <button mat-icon-button color="warn" type="button" (click)="removeQuestion(qi)" aria-label="Remove question">
+              <mat-icon>delete</mat-icon>
+            </button>
+          </div>
+        </div>
+
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Question text</mat-label>
+          <input matInput formControlName="text" placeholder="Enter question text" required>
+          <mat-error *ngIf="question.get('text')?.invalid">Question text is required.</mat-error>
+        </mat-form-field>
+
+        <mat-checkbox formControlName="allowsMultipleAnswers">Allow multiple answers</mat-checkbox>
+
+        <div formArrayName="options" class="options">
+          <div *ngFor="let option of options(qi).controls; let oi = index; trackBy: trackByIndex" [formGroupName]="oi" class="option-row">
+            <div class="option-header">
+              <h4>Option {{ oi + 1 }}</h4>
+              <button mat-icon-button color="warn" type="button" (click)="removeOption(qi, oi)" [disabled]="options(qi).length <= 1" aria-label="Remove option">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </div>
+            <div class="option-body">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Option text</mat-label>
+                <input matInput formControlName="text" placeholder="Enter option text" required>
+                <mat-error *ngIf="option.get('text')?.invalid">Option text is required.</mat-error>
+              </mat-form-field>
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Feedback</mat-label>
+                <textarea matInput rows="2" formControlName="feedback" placeholder="Explain why this answer is correct or incorrect" required></textarea>
+                <mat-error *ngIf="option.get('feedback')?.invalid">Feedback is required.</mat-error>
+              </mat-form-field>
+              <mat-checkbox formControlName="isCorrect">Correct answer</mat-checkbox>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button mat-stroked-button color="primary" type="button" (click)="addQuestion()">Add question</button>
+
+    <div *ngIf="validationError" class="error">{{ validationError }}</div>
+
+    <div class="actions">
+      <button mat-raised-button color="primary" type="submit">{{ isEdit ? 'Update quiz' : 'Create quiz' }}</button>
+      <button mat-button type="button" (click)="cancel()">Cancel</button>
+      <button *ngIf="isEdit" mat-button color="warn" type="button" (click)="deleteQuiz()">Delete</button>
+    </div>
+  </form>
+</div>
+
+<ng-template #loadingTpl>
+  <p>Loading quiz...</p>
+</ng-template>

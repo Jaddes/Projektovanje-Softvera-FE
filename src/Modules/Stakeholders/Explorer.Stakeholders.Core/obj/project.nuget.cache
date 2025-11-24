@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rHkKanz4vMI=",
+  "dgSpecHash": "GW262RxGmm4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj",
+  "projectFilePath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Stakeholders\\Explorer.Stakeholders.Core\\Explorer.Stakeholders.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\borko\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\borko\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

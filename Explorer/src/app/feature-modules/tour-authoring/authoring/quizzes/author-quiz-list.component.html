@@ -1,0 +1,44 @@
+<div class="quiz-list">
+  <div class="header">
+    <h2>Your quizzes</h2>
+    <button mat-raised-button color="primary" (click)="createQuiz()">
+      <mat-icon>add</mat-icon>
+      Create new quiz
+    </button>
+  </div>
+
+  <div *ngIf="loading" class="info">Loading quizzes...</div>
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+  <div *ngIf="!loading && !errorMessage">
+    <p *ngIf="quizzes.length === 0" class="info">No quizzes created yet.</p>
+
+    <table *ngIf="quizzes.length > 0" class="quiz-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Questions</th>
+          <th>Created</th>
+          <th>Updated</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let quiz of quizzes">
+          <td>{{ quiz.title }}</td>
+          <td>{{ quiz.questions?.length || 0 }}</td>
+          <td>{{ quiz.createdAt | date:'short' }}</td>
+          <td>{{ quiz.updatedAt ? (quiz.updatedAt | date:'short') : '-' }}</td>
+          <td class="actions">
+            <button mat-icon-button color="primary" (click)="editQuiz(quiz)">
+              <mat-icon>edit</mat-icon>
+            </button>
+            <button mat-icon-button color="warn" (click)="deleteQuiz(quiz)">
+              <mat-icon>delete</mat-icon>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

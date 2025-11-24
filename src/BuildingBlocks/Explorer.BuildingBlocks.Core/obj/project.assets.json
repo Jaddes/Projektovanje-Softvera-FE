@@ -210,11 +210,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj",
+      "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj",
       "projectName": "Explorer.BuildingBlocks.Core",
-      "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj",
+      "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\Explorer.BuildingBlocks.Core.csproj",
       "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\obj\\",
+      "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\BuildingBlocks\\Explorer.BuildingBlocks.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -246,11 +246,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj",
+      "projectUniqueName": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj",
       "projectName": "Explorer.Tours.Core",
-      "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj",
+      "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Core\\Explorer.Tours.Core.csproj",
       "packagesPath": "C:\\Users\\borko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.Core\\obj\\",
+      "outputPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -272,8 +272,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj": {
-              "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\BE-GPT_02\\Projektovanje-Softvera-BE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj"
+            "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj": {
+              "projectPath": "C:\\Users\\borko\\OneDrive\\Desktop\\Faks\\4 godina\\Projektovanje softvera\\FE-GPT\\Projektovanje-Softvera-FE\\src\\Modules\\Tours\\Explorer.Tours.API\\Explorer.Tours.API.csproj"
             }
           }
         }
