@@ -26,8 +26,9 @@ export class QuizService {
   }
 
   getOwnedQuiz(id: number): Observable<QuizDto | undefined> {
-    return this.getOwnedQuizzes().pipe(map(quizzes => quizzes.find(q => q.id === id)));
+     return this.getOwnedQuizzes().pipe(map((quizzes: QuizDto[]) => quizzes.find((q: QuizDto) => q.id === id)));
   }
+  
 
   createQuiz(quiz: QuizDto): Observable<QuizDto> {
     return this.http.post<QuizDto>(this.baseUrl, quiz);

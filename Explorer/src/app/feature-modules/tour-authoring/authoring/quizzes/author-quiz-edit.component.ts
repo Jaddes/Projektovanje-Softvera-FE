@@ -102,7 +102,7 @@ export class AuthorQuizEditComponent implements OnInit {
   private loadQuiz(id: number): void {
     this.loading = true;
     this.quizService.getOwnedQuiz(id).subscribe({
-      next: (quiz) => {
+      next: (quiz: QuizDto | undefined) => {
         if (!quiz) {
           this.errorMessage = 'Quiz not found.';
           this.loading = false;
@@ -113,7 +113,7 @@ export class AuthorQuizEditComponent implements OnInit {
           description: quiz.description
         });
         this.questions.clear();
-        (quiz.questions || []).forEach(q => this.questions.push(this.createQuestion(q)));
+        (quiz.questions || []).forEach((question: QuizQuestionDto) => this.questions.push(this.createQuestion(question)));
         if (this.questions.length === 0) {
           this.addQuestion();
         }
@@ -162,17 +162,23 @@ export class AuthorQuizEditComponent implements OnInit {
       return;
     }
 
-    const formValue = this.quizForm.value;
+    type QuizFormValue = {
+      title: string;
+      description?: string;
+      questions?: (QuizQuestionDto & { options?: QuizAnswerOptionDto[] })[];
+    };
+
+    const formValue = this.quizForm.value as QuizFormValue;
     const quiz: QuizDto = {
       id: this.quizId,
       title: formValue.title,
       description: formValue.description,
-      questions: (formValue.questions || []).map((q: any) => ({
+      questions: (formValue.questions || []).map((q: QuizQuestionDto & { options?: QuizAnswerOptionDto[] }) => ({
         id: q.id,
         quizId: q.quizId,
         text: q.text,
         allowsMultipleAnswers: q.allowsMultipleAnswers,
-        options: (q.options || []).map((o: any) => ({
+        options: (q.options || []).map((o: QuizAnswerOptionDto) => ({
           id: o.id,
           questionId: o.questionId,
           text: o.text,

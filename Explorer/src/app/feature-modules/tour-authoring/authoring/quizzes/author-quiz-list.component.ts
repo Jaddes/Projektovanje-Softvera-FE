@@ -23,7 +23,7 @@ export class AuthorQuizListComponent implements OnInit {
     this.loading = true;
     this.errorMessage = '';
     this.quizService.getOwnedQuizzes().subscribe({
-      next: (quizzes) => {
+      next: (quizzes: QuizDto[]) => {
         this.quizzes = quizzes || [];
         this.loading = false;
       },
