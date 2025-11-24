@@ -18,7 +18,6 @@ import { AuthorQuizListComponent } from 'src/app/feature-modules/tour-authoring/
 import { AuthorQuizEditComponent } from 'src/app/feature-modules/tour-authoring/authoring/quizzes/author-quiz-edit.component';
 
 
-
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'login', component: LoginComponent},
@@ -32,6 +31,9 @@ const routes: Routes = [
   { path: 'author-tours', component: TourComponent, canActivate: [AuthGuard] },
   { path: 'author-tours/form', component: TourFormComponent, canActivate: [AuthGuard] },
   { path: 'author-tours/form/:id', component: TourFormComponent, canActivate: [AuthGuard] },
+  { path: 'author/quizzes', component: AuthorQuizListComponent, canActivate: [AuthGuard] },
+  { path: 'author/quizzes/create', component: AuthorQuizEditComponent, canActivate: [AuthGuard] },
+  { path: 'author/quizzes/:id/edit', component: AuthorQuizEditComponent, canActivate: [AuthGuard] },
   { path: 'monuments', component: MonumentsComponent, canActivate: [AuthGuard] },
   { path: 'monuments/:id', component: MonumentDetailsComponent, canActivate: [AuthGuard] },
 
