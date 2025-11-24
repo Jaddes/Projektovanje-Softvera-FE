@@ -1,0 +1,49 @@
+<div id="clubs-container">
+    <div class="header">
+        <p>My Clubs</p>
+        <button mat-raised-button color="primary" (click)="onAddClicked()">
+            <mat-icon>add</mat-icon> New Club
+        </button>
+    </div>
+    <hr>
+ 
+    <div class="content-container">
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Actions</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let club of clubs">
+                        <td>{{club.name}}</td>
+                        <td>{{club.description}}</td>
+                        <td>
+                            <button mat-icon-button color="primary" (click)="onEditClicked(club)" [disabled]="!isOwner(club.ownerId)">
+                                <mat-icon>edit</mat-icon>
+                            </button>
+                            <button mat-icon-button color="warn" (click)="deleteClub(club.id!)" [disabled]="!isOwner(club.ownerId)">
+                                <mat-icon>delete</mat-icon>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="form-wrapper" *ngIf="shouldRenderClubForm">
+
+            <h3>{{ shouldEdit ? 'Edit Club' : 'Create New Club' }}</h3>
+            <xp-club-form 
+                [club]="selectedClub" 
+                [shouldEdit]="shouldEdit" 
+                (clubUpdated)="getClubs()">
+            </xp-club-form>
+        </div>
+
+    </div>
+</div>

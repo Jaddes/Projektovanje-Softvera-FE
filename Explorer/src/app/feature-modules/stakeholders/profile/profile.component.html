@@ -1,0 +1,55 @@
+<div *ngIf="profile" class="profile-container">
+    <!-- View Mode -->
+    <div *ngIf="!isEditing">
+      <div class="profile-header">
+        <img [src]="profile.profilePicture || 'assets/avatar-placeholder.png'" alt="Profile Image" class="profile-image">
+        <h2>{{ profile.name }} {{ profile.surname }}</h2>
+      </div>
+      <div class="profile-details">
+        <p><strong>Quote:</strong> {{ profile.quote || 'Not set' }}</p>
+        <p><strong>Biography:</strong> {{ profile.biography || 'Not set' }}</p>
+      </div>
+      <button mat-raised-button color="primary" (click)="onEdit()">Edit profile</button>
+    </div>
+  
+    <!-- Edit Mode -->
+    <div *ngIf="isEditing">
+      <h3>Edit profile</h3>
+      <div class="edit-form">
+        <mat-form-field appearance="fill">
+          <mat-label>Name</mat-label>
+          <input matInput [(ngModel)]="profile.name" required>
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Surname</mat-label>
+          <input matInput [(ngModel)]="profile.surname" required>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Image URL</mat-label>
+            <input matInput [(ngModel)]="profile.profilePicture">
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Quote</mat-label>
+          <input matInput [(ngModel)]="profile.quote">
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Biography</mat-label>
+          <textarea matInput [(ngModel)]="profile.biography"></textarea>
+        </mat-form-field>
+      </div>
+  
+      <div class="edit-actions">
+        <button mat-raised-button color="primary" (click)="onSave()">Save</button>
+        <button mat-button (click)="onCancel()">Cancel</button>
+      </div>
+    </div>
+  </div>
+  
+  <ng-template #loading>
+    <p>Loading profile...</p>
+  </ng-template>
+  

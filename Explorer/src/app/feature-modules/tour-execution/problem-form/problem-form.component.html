@@ -1,0 +1,66 @@
+<div class="form-container">
+  <h3>{{ shouldEdit ? 'Edit Problem' : 'Report New Problem' }}</h3>
+  
+  <form [formGroup]="problemForm" (ngSubmit)="onSubmit()">
+    
+    <div class="form-group">
+      <label for="tourId">Tour ID *</label>
+      <input 
+        type="number" 
+        id="tourId" 
+        formControlName="tourId" 
+        class="form-control"
+        placeholder="Enter Tour ID"
+      />
+      <div class="error-message" *ngIf="problemForm.get('tourId')?.invalid && problemForm.get('tourId')?.touched">
+        Tour ID is required.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="category">Category *</label>
+      <select id="category" formControlName="category" class="form-control">
+        <option [value]="0">Booking</option>
+        <option [value]="1">Itinerary</option>
+        <option [value]="2">Guide</option>
+        <option [value]="3">Transportation</option>
+        <option [value]="4">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="priority">Priority *</label>
+      <select id="priority" formControlName="priority" class="form-control">
+        <option [value]="0">Low</option>
+        <option [value]="1">Medium</option>
+        <option [value]="2">High</option>
+        <option [value]="3">Critical</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="description">Problem Description *</label>
+      <textarea 
+        id="description" 
+        formControlName="description" 
+        class="form-control"
+        rows="4"
+        placeholder="Describe the problem in detail (minimum 10 characters)"
+      ></textarea>
+      <div class="error-message" *ngIf="problemForm.get('description')?.invalid && problemForm.get('description')?.touched">
+        <span *ngIf="problemForm.get('description')?.errors?.['required']">Description is required.</span>
+        <span *ngIf="problemForm.get('description')?.errors?.['minlength']">Description must be at least 10 characters.</span>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary" [disabled]="problemForm.invalid">
+        {{ shouldEdit ? 'Save Changes' : 'Report Problem' }}
+      </button>
+      <button type="button" class="btn btn-secondary" (click)="onCancel()">
+        Cancel
+      </button>
+    </div>
+
+  </form>
+</div>

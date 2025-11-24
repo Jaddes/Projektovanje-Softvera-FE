@@ -1,0 +1,177 @@
+<div class="monuments-container">
+  <div class="header">
+    <h2>Historical Monuments</h2>
+    <button color="primary" (click)="onAddClicked()" mat-raised-button>
+      <mat-icon>add</mat-icon>
+      Add Monument
+    </button>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="tables-section">
+      <div class="table-card">
+        <div class="card-header">
+          <h3>Active Monuments</h3>
+        </div>
+        <div class="table-container">
+          <table *ngIf="activeMonuments.length > 0">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Year</th>
+                <th>Coordinates</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let m of activeMonuments">
+                <td class="name-cell" (click)="onMonumentClick(m)">{{ m.name }}</td>
+                <td>{{ m.description || '-' }}</td>
+                <td>{{ m.yearOfOrigin || '-' }}</td>
+                <td class="coordinates-cell" (click)="onCoordinatesClick(m)">
+                  {{ m.locationLatitude }}, {{ m.locationLongitude }}
+                </td>
+                <td class="actions-cell">
+                  <button mat-icon-button color="primary" (click)="onEditClicked(m)">
+                    <mat-icon>edit</mat-icon>
+                  </button>
+
+                  <button mat-icon-button color="warn" (click)="deleteMonument(m.id || 0)">
+                    <mat-icon>delete</mat-icon>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div *ngIf="activeMonuments.length === 0" class="empty-state">
+            <mat-icon>info</mat-icon>
+            <p>No active monuments found</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="table-card">
+        <div class="card-header">
+          <h3>Inactive Monuments</h3>
+        </div>
+        <div class="table-container">
+          <table *ngIf="inactiveMonuments.length > 0">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Year</th>
+                <th>Coordinates</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let m of inactiveMonuments">
+                <td class="name-cell" (click)="onMonumentClick(m)">{{ m.name }}</td>
+                <td>{{ m.description || '-' }}</td>
+                <td>{{ m.yearOfOrigin || '-' }}</td>
+                <td class="coordinates-cell" (click)="onCoordinatesClick(m)">
+                  {{ m.locationLatitude }}, {{ m.locationLongitude }}
+                </td>
+                <td class="actions-cell">
+                  <button mat-icon-button color="primary" (click)="onEditClicked(m)">
+                    <mat-icon>edit</mat-icon>
+                  </button>
+                  <button mat-icon-button color="warn" (click)="deleteMonument(m.id || 0)">
+                    <mat-icon>delete</mat-icon>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div *ngIf="inactiveMonuments.length === 0" class="empty-state">
+            <mat-icon>info</mat-icon>
+            <p>No inactive monuments found</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-section" *ngIf="selectedMonument && !addingMode">
+      <div class="map-card">
+        <div class="card-header">
+          <h3>Location</h3>
+          <button mat-icon-button (click)="closeMap()">
+            <mat-icon>close</mat-icon>
+          </button>
+        </div>
+        <div class="map-info">
+          <h4>{{ selectedMonument.name }}</h4>
+          <p class="coordinates">
+            <mat-icon>location_on</mat-icon>
+            {{ selectedMonument.locationLatitude }}, {{ selectedMonument.locationLongitude }}
+          </p>
+          <div class="map-placeholder" id="map"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-section add-monument" *ngIf="addingMode">
+      <div class="map-card add-monument">
+        <div class="card-header">
+          <h3>Add Monument</h3>
+          <button mat-icon-button (click)="cancelAdd()">
+            <mat-icon>close</mat-icon>
+          </button>
+        </div>
+
+        <form [formGroup]="addForm" class="form-container">
+          <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Name</mat-label>
+            <input matInput formControlName="name" />
+            <mat-error *ngIf="addForm.controls['name'].hasError('required')">Name is required</mat-error>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Description</mat-label>
+            <textarea matInput formControlName="description"></textarea>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Year of Origin</mat-label>
+            <input matInput type="number" formControlName="yearOfOrigin" />
+            <mat-error *ngIf="addForm.controls['yearOfOrigin'].hasError('futureYear')">Year cannot be in the future</mat-error>
+          </mat-form-field>
+
+          <div class="coordinates-row">
+            <mat-form-field appearance="fill">
+              <mat-label>Latitude</mat-label>
+              <input matInput type="number" formControlName="locationLatitude" />
+              <mat-error *ngIf="addForm.controls['locationLatitude'].hasError('required')">Latitude is required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="fill">
+              <mat-label>Longitude</mat-label>
+              <input matInput type="number" formControlName="locationLongitude" />
+              <mat-error *ngIf="addForm.controls['locationLongitude'].hasError('required')">Longitude is required</mat-error>
+            </mat-form-field>
+
+            <button mat-raised-button color="secondary" type="button" (click)="findOnMap()">Find on Map</button>
+          </div>
+
+          <div *ngIf="mapMode" class="map-container">
+            <h4>Select Location on Map</h4>
+            <div id="map-picker" class="map-placeholder"></div>
+            <button mat-raised-button color="warn" (click)="cancelMapMode()">Cancel</button>
+          </div>
+
+          <button mat-raised-button color="primary" (click)="saveMonument()" [disabled]="addForm.invalid">Save</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="map-section add-monument" *ngIf="editingMonument">
+      <app-edit-monument 
+        [monument]="editingMonument"
+        (monumentUpdated)="onMonumentUpdated($event)"
+        (cancelEdit)="editingMonument=null">
+      </app-edit-monument>
+    </div>
+  </div>
+</div>

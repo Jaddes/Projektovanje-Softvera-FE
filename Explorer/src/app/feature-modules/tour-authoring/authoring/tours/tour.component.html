@@ -1,0 +1,80 @@
+<div class="tours-container">
+	<div class="header">
+		<h2>Tours</h2>
+		<button color="primary" (click)="onAddClicked()" mat-raised-button>
+			<mat-icon>add</mat-icon>
+			Add
+		</button>
+	</div>
+
+	<div class="tables">
+		<div class="table-wrap">
+			<p class="table-title">Draft Tours</p>
+			<table *ngIf="draftTours.length > 0">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Difficulty</th>
+						<th>Price</th>
+						<th>Tags</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let t of draftTours">
+						<td>{{t.name}}</td>
+						<td>{{t.description}}</td>
+						<td>{{formatDifficulty(t.difficulty)}}</td>
+						<td>{{t.price}}</td>
+						<td>{{ (t.tags || []).join(', ') }}</td>
+						<td>
+							<button color="accent" (click)="deleteTour(t.id || 0)" mat-icon-button>
+								<mat-icon>delete</mat-icon>
+							</button>
+							<button color="primary" (click)="onEditClicked(t)" mat-icon-button>
+								<mat-icon>edit</mat-icon>
+							</button>
+							<button color="primary" (click)="confirmTour(t)" mat-icon-button>
+								<mat-icon>check_circle</mat-icon>
+							</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p *ngIf="!draftTours || draftTours.length === 0" class="empty">No draft tours</p>
+		</div>
+
+		<div class="table-wrap">
+			<p class="table-title">Confirmed Tours</p>
+			<table *ngIf="confirmedTours.length > 0">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Difficulty</th>
+						<th>Price</th>
+						<th>Tags</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let t of confirmedTours">
+						<td>{{t.name}}</td>
+						<td>{{t.description}}</td>
+						<td>{{formatDifficulty(t.difficulty)}}</td>
+						<td>{{t.price}}</td>
+						<td>{{ (t.tags || []).join(', ') }}</td>
+						<td>
+							<button color="primary" (click)="onEditClicked(t)" mat-icon-button>
+								<mat-icon>edit</mat-icon>
+							</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p *ngIf="!confirmedTours || confirmedTours.length === 0" class="empty">No confirmed tours</p>
+		</div>
+	</div>
+</div>
+

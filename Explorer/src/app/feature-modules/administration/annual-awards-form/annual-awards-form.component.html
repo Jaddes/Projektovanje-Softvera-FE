@@ -1,0 +1,52 @@
+<form [formGroup]="annualAwardForm" (ngSubmit)="onSubmit()">
+  <div>
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input matInput type="text" formControlName="name">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Description</mat-label>
+      <input matInput type="text" formControlName="description">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Year</mat-label>
+      <input matInput type="number" formControlName="year">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Status</mat-label>
+      <mat-select formControlName="status">
+        <mat-option [value]="0">Draft</mat-option>
+        <mat-option [value]="1">Open for voting</mat-option>
+        <mat-option [value]="2">Closed</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Voting start date</mat-label>
+      <input matInput
+             [matDatepicker]="pickerStart"
+             formControlName="votingStartDate">
+      <mat-datepicker-toggle matSuffix [for]="pickerStart"></mat-datepicker-toggle>
+      <mat-datepicker #pickerStart></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Voting end date</mat-label>
+      <input matInput
+             [matDatepicker]="pickerEnd"
+             formControlName="votingEndDate">
+      <mat-datepicker-toggle matSuffix [for]="pickerEnd"></mat-datepicker-toggle>
+      <mat-datepicker #pickerEnd></mat-datepicker>
+    </mat-form-field>
+  </div>
+
+  <button
+    mat-raised-button
+    color="primary"
+    type="submit">
+    {{ shouldEdit ? 'Save changes' : 'Done' }}
+  </button>
+</form>

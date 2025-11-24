@@ -1,0 +1,51 @@
+<div class="map-card add-monument">
+  <div class="card-header">
+    <h3>Edit Monument</h3>
+    <button mat-icon-button (click)="cancel()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+
+  <form [formGroup]="editForm" class="form-container">
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name" />
+      <mat-error *ngIf="editForm.controls['name'].hasError('required')">Name is required</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Description</mat-label>
+      <textarea matInput formControlName="description"></textarea>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Year of Origin</mat-label>
+      <input matInput type="number" formControlName="yearOfOrigin" />
+      <mat-error *ngIf="editForm.controls['yearOfOrigin'].hasError('futureYear')">Year cannot be in the future</mat-error>
+    </mat-form-field>
+
+    <div class="coordinates-row">
+      <mat-form-field appearance="fill">
+        <mat-label>Latitude</mat-label>
+        <input matInput type="number" formControlName="locationLatitude" />
+        <mat-error *ngIf="editForm.controls['locationLatitude'].hasError('required')">Latitude is required</mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Longitude</mat-label>
+        <input matInput type="number" formControlName="locationLongitude" />
+        <mat-error *ngIf="editForm.controls['locationLongitude'].hasError('required')">Longitude is required</mat-error>
+      </mat-form-field>
+    </div>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Status</mat-label>
+      <mat-select formControlName="status">
+        <mat-option value="active">Active</mat-option>
+        <mat-option value="inactive">Inactive</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="save()" [disabled]="editForm.invalid">Save</button>
+  </form>
+</div>

@@ -1,0 +1,65 @@
+<div id="problems">
+    <div class="header-section">
+        <h2>My Reported Problems ({{ problems.length }})</h2>
+        <button class="create-button" (click)="onAddClicked()" *ngIf="!shouldRenderProblemForm">
+            Report Problem
+        </button>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="table-section" [class.with-form]="shouldRenderProblemForm">
+            <div class="table-container" *ngIf="problems.length > 0">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tour ID</th>
+                            <th>Category</th>
+                            <th>Priority</th>
+                            <th>Description</th>
+                            <th>Reported At</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let problem of problems">
+                            <td>{{ problem.tourId }}</td>
+                            <td>{{ getCategoryName(problem.category) }}</td>
+                            <td>
+                                <span [class]="'priority-badge ' + getPriorityClass(problem.priority)">
+                                    {{ getPriorityName(problem.priority) }}
+                                </span>
+                            </td>
+                            <td>{{ problem.description }}</td>
+                            <td>{{ problem.reportedAt | date: 'dd.MM.yyyy HH:mm' }}</td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="btn btn-edit" (click)="onEditClicked(problem)">
+                                        EDIT
+                                    </button>
+                                    <button class="btn btn-delete" (click)="deleteProblem(problem.id || 0)">
+                                        DELETE
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="no-data" *ngIf="problems.length === 0 && !shouldRenderProblemForm">
+                <p>You have no reported problems.</p>
+                <button class="create-button" (click)="onAddClicked()">
+                    Report Your First Problem
+                </button>
+            </div>
+        </div>
+
+        <div class="form-section" *ngIf="shouldRenderProblemForm">
+            <xp-problem-form 
+                [problem]="selectedProblem" 
+                [shouldEdit]="shouldEdit"
+                (problemUpdated)="onProblemUpdated()">
+            </xp-problem-form>
+        </div>
+    </div>
+</div>

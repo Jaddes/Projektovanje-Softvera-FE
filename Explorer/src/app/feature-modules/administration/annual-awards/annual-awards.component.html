@@ -1,0 +1,72 @@
+<div id="annual-awards">
+  <p>Annual Awards</p>
+  <hr>
+
+  <div id="annual-awards-details">
+
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Year</th>
+            <th>Voting start</th>
+            <th>Voting end</th>
+            <th>Status</th>
+            <th></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let award of awards">
+            <td>{{ award.name }}</td>
+            <td>{{ award.description }}</td>
+            <td>{{ award.year }}</td>
+
+            <td>{{ award.votingStartDate | date:'dd.MM.yyyy' }}</td>
+            <td>{{ award.votingEndDate   | date:'dd.MM.yyyy' }}</td>
+
+            <td>{{ getStatusLabel(award.status) }}</td>
+            
+            <td>
+              <button
+                color="accent"
+                (click)="deleteAward(award.id || 0)"
+                mat-icon-button>
+                <mat-icon>delete</mat-icon>
+              </button>
+
+              <button
+                color="primary"
+                (click)="onEditClicked(award)"
+                mat-icon-button>
+                <mat-icon>edit</mat-icon>
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="7">
+              <button
+                color="primary"
+                (click)="onAddClicked()"
+                mat-icon-button>
+                <mat-icon>add</mat-icon>
+              </button>
+            </td>
+
+          </tr>  
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <xp-annual-awards-form
+        *ngIf="shouldRenderAwardForm"
+        [shouldEdit]="shouldEdit"
+        [award]="selectedAward!"
+        (awardUpdated)="loadAwards()">
+      </xp-annual-awards-form>
+    </div>
+  </div>
+</div>

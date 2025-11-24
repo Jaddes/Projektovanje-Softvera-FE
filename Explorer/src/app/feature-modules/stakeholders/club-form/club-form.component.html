@@ -1,0 +1,15 @@
+<form [formGroup]="clubForm" (ngSubmit)="shouldEdit ? updateClub() : addClub()">
+    <mat-form-field>
+        <input matInput placeholder="Name" formControlName="name">
+    </mat-form-field>
+    <mat-form-field>
+        <textarea matInput placeholder="Description" formControlName="description"></textarea>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Image URIs (comma-separated)" formControlName="imageUris">
+    </mat-form-field>
+    
+    <button mat-raised-button color="primary" type="submit" [disabled]="clubForm.invalid">
+        {{ shouldEdit ? 'Save Changes' : 'Add Club' }}
+    </button>
+</form>

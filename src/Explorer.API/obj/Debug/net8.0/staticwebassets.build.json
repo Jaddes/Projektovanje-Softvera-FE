@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "h0VxrrLdzsp9jIm0frvDI1iGkLvmTDyVVA4jhTqSwAc=",
+  "Source": "Explorer.API",
+  "BasePath": "_content/Explorer.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

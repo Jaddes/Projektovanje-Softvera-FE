@@ -1,0 +1,60 @@
+#clubs-container {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    gap: 30px; 
+}
+
+.table-wrapper {
+    flex: 2; 
+}
+
+.form-wrapper {
+    flex: 1; 
+    position: sticky;
+    top: 20px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background: white;
+}
+
+thead tr {
+    background-color: #3f51b5;
+    color: #ffffff;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; 
+}

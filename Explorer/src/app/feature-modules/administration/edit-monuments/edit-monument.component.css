@@ -1,0 +1,88 @@
+.map-card.add-monument {
+  width: 100%;
+  max-width: 700px;  /* isto kao add forma */
+  margin: 0 auto 2rem auto;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  overflow: visible;
+}
+
+.map-card.add-monument .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 1rem;
+  background: none;
+  border-bottom: none;
+}
+
+.map-card.add-monument .card-header h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.map-card.add-monument .card-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.map-card.add-monument form.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.map-card.add-monument mat-form-field {
+  width: 100%;
+}
+
+.map-card.add-monument .coordinates-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.map-card.add-monument .coordinates-row mat-form-field {
+  flex: 1 1 45%;
+  min-width: 120px;
+}
+
+.map-card.add-monument button[mat-raised-button] {
+  margin-top: 16px;
+  align-self: flex-end;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+}
+
+.snackbar-success {
+  background-color: #4caf50  !important;
+  color: #fff  !important;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.snackbar-error {
+  background-color: #f44336  !important;
+  color: #fff  !important;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .map-card.add-monument .coordinates-row {
+    flex-direction: column;
+  }
+
+  .map-card.add-monument button[mat-raised-button] {
+    width: 100%;
+    align-self: center;
+  }
+}
