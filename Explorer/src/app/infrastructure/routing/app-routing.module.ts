@@ -14,8 +14,7 @@ import { TourFormComponent } from 'src/app/feature-modules/tour-authoring/author
 import { MonumentsComponent } from 'src/app/feature-modules/administration/monuments/monuments.component';
 import { MonumentDetailsComponent } from 'src/app/feature-modules/administration/monuments/monument-details/monument-details.component';
 import { ProblemListComponent } from 'src/app/feature-modules/tour-execution/problem-list/problem-list.component';
-import { AuthorQuizListComponent } from 'src/app/feature-modules/tour-authoring/authoring/quizzes/author-quiz-list.component';
-import { AuthorQuizEditComponent } from 'src/app/feature-modules/tour-authoring/authoring/quizzes/author-quiz-edit.component';
+import { AuthorQuizEditComponent, AuthorQuizListComponent } from 'src/app/feature-modules/tour-authoring/authoring/quizzes';
 
 
 const routes: Routes = [

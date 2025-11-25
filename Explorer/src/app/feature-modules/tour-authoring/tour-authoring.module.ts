@@ -10,8 +10,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select';
 import { TourComponent } from './authoring/tours/tour.component';
 import { TourFormComponent } from './authoring/tour-form/tour-form.component';
-import { AuthorQuizListComponent } from './authoring/quizzes/author-quiz-list.component';
-import { AuthorQuizEditComponent } from './authoring/quizzes/author-quiz-edit.component';
+import { AuthorQuizEditComponent, AuthorQuizListComponent } from './authoring/quizzes';
 
 @NgModule({
   declarations: [
