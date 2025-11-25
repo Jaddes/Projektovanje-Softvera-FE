@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Explorer.Tours.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4c2eb5aa25e68aa35ba662c5be29ab48c1786a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f20977bf00023a3b4a6d86f7cd820c1f61e987d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Explorer.Tours.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Explorer.Tours.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
