@@ -7,7 +7,7 @@ import { LayoutModule } from './feature-modules/layout/layout.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './infrastructure/material/material.module';
 import { AdministrationModule } from './feature-modules/administration/administration.module';
-import { BlogModule } from './feature-modules/blog/blog.module';
+
 import { MarketplaceModule } from './feature-modules/marketplace/marketplace.module';
 import { TourAuthoringModule } from './feature-modules/tour-authoring/tour-authoring.module';
 import { TourExecutionModule } from './feature-modules/tour-execution/tour-execution.module';
@@ -28,7 +28,6 @@ import { MarkdownModule } from 'ngx-markdown';
     BrowserAnimationsModule,
     MaterialModule,
     AdministrationModule,
-    BlogModule,
     MarketplaceModule,
     TourAuthoringModule,
     TourExecutionModule,
