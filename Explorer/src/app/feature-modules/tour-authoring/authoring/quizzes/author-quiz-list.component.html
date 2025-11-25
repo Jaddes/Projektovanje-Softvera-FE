@@ -26,7 +26,7 @@
       <tbody>
         <tr *ngFor="let quiz of quizzes">
           <td>{{ quiz.title }}</td>
-          <td>{{ quiz.questions?.length || 0 }}</td>
+          <td>{{ (quiz.questions || []).length }}</td>
           <td>{{ quiz.createdAt | date:'short' }}</td>
           <td>{{ quiz.updatedAt ? (quiz.updatedAt | date:'short') : '-' }}</td>
           <td class="actions">

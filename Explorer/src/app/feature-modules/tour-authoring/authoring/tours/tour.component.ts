@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { PagedResults } from 'src/app/shared/model/paged-results.model';
-import { Tour, TourStatus, TourDifficulty } from '../model/tour.model';
+import { Tour, TourStatus, TourDifficulty } from '../model/tours.model';
 import { TourAuthoringService } from '../../tour-authoring.service';
 
 @Component({

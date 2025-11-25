@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Tour, TourDifficulty, TourStatus } from '../model/tour.model';
+import { Tour, TourDifficulty, TourStatus } from '../model/tours.model';
 import { TourAuthoringService } from '../../tour-authoring.service';
 
 @Component({
