@@ -1,0 +1,38 @@
+<div class="quiz-list">
+  <div class="header">
+    <h2>Available quizzes</h2>
+    <button mat-stroked-button color="primary" type="button" (click)="loadQuizzes()" [disabled]="loading">
+      <mat-icon>refresh</mat-icon>
+      Refresh
+    </button>
+  </div>
+
+  <div *ngIf="loading" class="info">Loading quizzes...</div>
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+  <div class="quiz-grid" *ngIf="!loading && !errorMessage && quizzes.length > 0">
+    <div class="quiz-card" *ngFor="let quiz of quizzes">
+      <div class="quiz-card__header">
+        <div>
+          <h3>{{ quiz.title }}</h3>
+          <p class="muted">{{ quiz.description || 'No description provided.' }}</p>
+        </div>
+        <span class="badge">{{ (quiz.questions || []).length }} questions</span>
+      </div>
+      <div class="quiz-card__meta">
+        <span>Created: {{ quiz.createdAt | date:'short' }}</span>
+        <span *ngIf="quiz.updatedAt">Updated: {{ quiz.updatedAt | date:'short' }}</span>
+      </div>
+      <div class="quiz-card__actions">
+        <button mat-raised-button color="primary" type="button" (click)="solveQuiz(quiz)">
+          <mat-icon>play_arrow</mat-icon>
+          Solve quiz
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <p *ngIf="!loading && !errorMessage && quizzes.length === 0" class="info">
+    There are no quizzes available yet.
+  </p>
+</div>

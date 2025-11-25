@@ -10,6 +10,7 @@ import { Login } from '../model/login.model';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+  errorMessage = '';
 
   constructor(
     private authService: AuthService,
@@ -22,17 +23,30 @@ export class LoginComponent {
   });
 
   login(): void {
+    if (this.loginForm.invalid) {
+      console.warn('[Login] Form invalid, refusing to submit.', this.loginForm.value);
+      this.loginForm.markAllAsTouched();
+      return;
+    }
+
     const login: Login = {
       username: this.loginForm.value.username || "",
       password: this.loginForm.value.password || "",
     };
 
-    if (this.loginForm.valid) {
-      this.authService.login(login).subscribe({
-        next: () => {
-          this.router.navigate(['/']);
-        },
-      });
-    }
+    console.log('[Login] Attempting login for user:', login.username);
+
+    this.authService.login(login).subscribe({
+      next: (response) => {
+        console.log('[Login] Success. Token received, navigating home.', response);
+        this.errorMessage = '';
+        this.router.navigate(['/']);
+      },
+      error: (error) => {
+        console.error('[Login] Failed.', error);
+        this.errorMessage = 'Login failed. Please check your credentials and try again.';
+        this.loginForm.setErrors({ loginFailed: true });
+      },
+    });
   }
 }

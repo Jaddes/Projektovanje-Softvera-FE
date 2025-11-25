@@ -25,6 +25,10 @@ export class QuizService {
     return this.http.get<QuizDto[]>(`${this.baseUrl}/owned`);
   }
 
+  getQuizById(id: number): Observable<QuizDto | undefined> {
+    return this.getAllQuizzes().pipe(map((quizzes: QuizDto[]) => quizzes.find((q: QuizDto) => q.id === id)));
+  }
+
   getOwnedQuiz(id: number): Observable<QuizDto | undefined> {
      return this.getOwnedQuizzes().pipe(map((quizzes: QuizDto[]) => quizzes.find((q: QuizDto) => q.id === id)));
   }

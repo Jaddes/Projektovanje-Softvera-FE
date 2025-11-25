@@ -15,8 +15,10 @@
             <button *ngIf="user && user.username !== '' && user.role !== 'administrator'" color="primary" mat-raised-button [routerLink]="['/blog']">Blog</button>
             <button *ngIf="user && user.role === 'administrator'"color="primary" mat-raised-button [routerLink]="['annual-awards']">Manage awards</button>
             <button *ngIf="user && user.role === 'author'"color="primary" mat-raised-button [routerLink]="['author-tours']">Manage tours</button>
+            <button *ngIf="user && user.role === 'author'"color="primary" mat-raised-button [routerLink]="['/author/quizzes']">My quizzes</button>
             <button *ngIf="user && user.role === 'administrator'"color="primary" mat-raised-button [routerLink]="['monuments']">Manage monuments</button>
             <button *ngIf="user && user.role === 'tourist'" color="primary" mat-raised-button [routerLink]="['problems']">My Problems</button>
+            <button *ngIf="user && user.role === 'tourist'" color="primary" mat-raised-button [routerLink]="['/quizzes']">Quizzes</button>
 
         </div>
     </div>

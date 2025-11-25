@@ -1,0 +1,74 @@
+<div class="solve-container" *ngIf="quiz; else loadingTpl">
+  <div class="solve-header">
+    <div>
+      <h2>{{ quiz.title }}</h2>
+      <p class="muted">{{ quiz.description || 'No description provided.' }}</p>
+    </div>
+    <span class="badge">{{ quiz.questions.length || 0 }} questions</span>
+  </div>
+
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+  <div *ngIf="validationError" class="error">{{ validationError }}</div>
+
+  <div class="question" *ngFor="let question of quiz?.questions">
+    <div class="question-header">
+      <div>
+        <h3>{{ question.text }}</h3>
+        <p class="muted">
+          {{ question.allowsMultipleAnswers ? 'Select one or more answers.' : 'Select one answer.' }}
+        </p>
+      </div>
+    </div>
+
+    <div class="options" *ngIf="question.allowsMultipleAnswers">
+      <mat-checkbox
+        *ngFor="let option of question.options"
+        [checked]="isSelected(question.id || 0, option.id || 0)"
+        (change)="toggleOption(question, option.id || 0, $event.checked)">
+        {{ option.text }}
+      </mat-checkbox>
+    </div>
+
+    <mat-radio-group
+      *ngIf="!question.allowsMultipleAnswers"
+      [value]="getSingleSelection(question.id || 0)"
+      (change)="selectSingle(question, $event.value)"
+      class="options">
+      <mat-radio-button *ngFor="let option of question.options" [value]="option.id || 0">
+        {{ option.text }}
+      </mat-radio-button>
+    </mat-radio-group>
+
+    <div *ngIf="result" class="feedback">
+      <div *ngFor="let option of question.options" class="feedback-row">
+        <span class="option-text">{{ option.text }}</span>
+        <span class="tag" [class.correct]="getOptionResult(question.id || 0, option.id || 0)?.isCorrect">
+          {{ getOptionResult(question.id || 0, option.id || 0)?.isCorrect ? 'Correct' : 'Incorrect' }}
+        </span>
+        <span class="tag" [class.selected]="getOptionResult(question.id || 0, option.id || 0)?.isSelected">
+          {{ getOptionResult(question.id || 0, option.id || 0)?.isSelected ? 'You chose this' : 'Not chosen' }}
+        </span>
+        <p class="muted">{{ getOptionResult(question.id || 0, option.id || 0)?.feedback }}</p>
+      </div>
+      <div class="question-summary" [class.correct]="getQuestionResult(question.id || 0)?.isCompletelyCorrect">
+        {{ getQuestionResult(question.id || 0)?.isCompletelyCorrect ? 'Answered correctly' : 'Answered partially/incorrectly' }}
+      </div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button mat-raised-button color="primary" type="button" (click)="submit()" [disabled]="loading">
+      Submit answers
+    </button>
+    <button mat-button type="button" (click)="resetSelections()" [disabled]="loading">
+      Reset
+    </button>
+  </div>
+</div>
+
+<ng-template #loadingTpl>
+  <div class="loading">
+    <mat-spinner diameter="40"></mat-spinner>
+    <span>Loading quiz...</span>
+  </div>
+</ng-template>

@@ -15,6 +15,8 @@ import { MonumentsComponent } from 'src/app/feature-modules/administration/monum
 import { MonumentDetailsComponent } from 'src/app/feature-modules/administration/monuments/monument-details/monument-details.component';
 import { ProblemListComponent } from 'src/app/feature-modules/tour-execution/problem-list/problem-list.component';
 import { AuthorQuizEditComponent, AuthorQuizListComponent } from 'src/app/feature-modules/tour-authoring/authoring/quizzes';
+import { TouristQuizListComponent } from 'src/app/feature-modules/tour-execution/quizzes/tourist-quiz-list.component';
+import { TouristQuizSolveComponent } from 'src/app/feature-modules/tour-execution/quizzes/tourist-quiz-solve.component';
 
 
 const routes: Routes = [
@@ -33,6 +35,8 @@ const routes: Routes = [
   { path: 'author/quizzes', component: AuthorQuizListComponent, canActivate: [AuthGuard] },
   { path: 'author/quizzes/create', component: AuthorQuizEditComponent, canActivate: [AuthGuard] },
   { path: 'author/quizzes/:id/edit', component: AuthorQuizEditComponent, canActivate: [AuthGuard] },
+  { path: 'quizzes', component: TouristQuizListComponent, canActivate: [AuthGuard] },
+  { path: 'quizzes/:id/solve', component: TouristQuizSolveComponent, canActivate: [AuthGuard] },
   { path: 'monuments', component: MonumentsComponent, canActivate: [AuthGuard] },
   { path: 'monuments/:id', component: MonumentDetailsComponent, canActivate: [AuthGuard] },
 
